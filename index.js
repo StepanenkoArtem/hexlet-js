@@ -1,1 +1,4 @@
-console.log('this is the test');
+import _ from "lodash";
+
+const arr = [1, 2, 3, 4, 5];
+console.log(_.last(arr));
